@@ -1,5 +1,5 @@
 {
-  "name": "html-to-pdf",
+  "name": "htmlapdf",
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
