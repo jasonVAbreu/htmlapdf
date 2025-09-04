@@ -21,10 +21,10 @@ app.post("/pdf", async (req, res) => {
     await page.setContent(html, { waitUntil: "networkidle0" });
 
     const pdf = await page.pdf({
-  width: "794px",         // ancho fijo
-  height: "auto",         // altura dinámica (no corta)
+  format: "A4",
   printBackground: true
 });
+
 
 
     await browser.close();
